@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jwt
+  datasource:
+    url: jdbc:mysql://localhost:1508/jwt
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  Key: fkQqdEXHDwILaFhRWGsuEUWhvMAfcwyvUa6HbwRdiOU=
